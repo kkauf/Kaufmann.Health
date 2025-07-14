@@ -18,8 +18,8 @@ const Reviews: React.FC<ReviewsProps> = ({ show }) => {
             <span className="font-semibold">Heilpraktikerin aus Hessen</span>
           </div>
           <div className="bg-white/80 dark:bg-charcoal/80 rounded-xl p-6 shadow-md border border-border text-center">
-            <p className="italic mb-4">„Die persönliche Betreuung und das Verständnis für die Praxis machen den Unterschied.“</p>
-            <span className="font-semibold">Therapeut aus Bayern</span>
+            <p className="italic mb-4">„Die persönliche Betreuung und das Verständnis für meine Arbeit machen den Unterschied.“</p>
+            <span className="font-semibold">Therapeut aus Berlin</span>
           </div>
           <div className="bg-white/80 dark:bg-charcoal/80 rounded-xl p-6 shadow-md border border-border text-center">
             <p className="italic mb-4">„Von der Website bis zur Abrechnung – alles aus einer Hand und individuell abgestimmt.“</p>

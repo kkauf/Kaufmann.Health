@@ -31,7 +31,7 @@ export default function App() {
               Mehr Zeit für das Wesentliche – Ihre Klient:innen.
             </h1>
             <p className="text-[1.2rem] leading-[1.7] text-gray-500 dark:text-gray-300 font-medium mb-6 text-left">
-              Digitalisierung, Beratung und Software-Lösungen speziell für Heilpraktiker:innen für Psychotherapie und moderne Behandler. Effizient. Individuell. Mit echtem Praxisbezug.
+              Digitalisierung, Beratung und Software-Lösungen speziell für Heilpraktiker:innen für Psychotherapie sowie psychologische Psychotherapeuten. Effizient. Individuell. Mit echtem Praxisbezug.
             </p>
             <ul className="mb-8 space-y-2">
               <li className="flex items-center gap-2 text-green-700 dark:text-green-400 font-medium"><span className="inline-block w-5 h-5"><svg fill="none" stroke="currentColor" strokeWidth="3" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"/></svg></span> Weniger Papierkram & mehr Zeit am Menschen</li>
