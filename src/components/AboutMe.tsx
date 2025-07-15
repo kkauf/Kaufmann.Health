@@ -38,6 +38,15 @@ const AboutMe: React.FC<AboutMeProps> = ({ show }) => {
           >
             {showDetails ? "Weniger anzeigen" : "Mehr über meine Expertise"}
           </button>
+          <br />
+          <a
+            href="https://kkauf.com"
+            className="inline-block mt-3 underline text-accent hover:text-accent/90 focus:outline-none focus:ring-2 focus:ring-accent rounded transition-colors"
+            target="_blank"
+            rel="noopener nofollow"
+          >
+            Weitere Projekte & Referenzen auf kkauf.com
+          </a>
           {showDetails && (
             <div className="mt-4 text-sm text-left bg-white/70 dark:bg-charcoal/70 rounded-lg p-4 border border-border max-w-md mx-auto animate-fade-in">
               <ul className="list-disc pl-5 space-y-1">
