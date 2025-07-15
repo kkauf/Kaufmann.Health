@@ -69,14 +69,6 @@ function MainPage() {
 }
 
 export default function App() {
-  // Feature toggles from .env
-  const showAboutMe = import.meta.env.VITE_SHOW_ABOUT_ME === 'true';
-  const showContactCTA = import.meta.env.VITE_SHOW_CONTACT_CTA === 'true';
-  const showFeatures = import.meta.env.VITE_SHOW_FEATURES === 'true';
-  const showFAQ = import.meta.env.VITE_SHOW_FAQ === 'true';
-  const showReviews = import.meta.env.VITE_SHOW_REVIEWS === 'true';
-  const contactEmail = import.meta.env.VITE_CONTACT_EMAIL || '';
-
   return (
     <BrowserRouter>
       <div className="min-h-screen flex flex-col bg-background text-foreground font-sans">
